@@ -216,7 +216,7 @@ sap.ui.define([
 				aItems.forEach((oItem) => {
 					let oBindingContext = oItem.getBindingContext("odataModel"),
 						sPath = oBindingContext.getPath();
-					window.open("/sap/opu/odata/sap/YSAPUI5_SRV_01" + sPath + "/$value");
+					window.open("/sap/opu/odata/sap/ZEMPLOYEES_SRV" + sPath + "/$value");
 				});
 			} 
 		}
